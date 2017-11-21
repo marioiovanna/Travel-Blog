@@ -3,24 +3,23 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('home', { title: 'Express' });
+    res.render('home');
 });
 
 router.get('/main', function(req, res, next) {
-    res.render('main', { title: 'Express' });
+    res.render('main');
 });
 
 router.get('/generic', function(req, res, next) {
-    res.render('generic', { title: 'Express' });
+    res.render('generic');
 });
 
 router.get('/thailand', function(req, res, next) {
-    res.render('main-thailand', { title: 'Express' });
+    res.render('main-thailand');
 });
 
 router.get('/thailand-gallery', function(req, res, next) {
-    res.render('thailand-gallery', { title: 'Express' });
+    res.render('thailand-gallery');
 });
-
 
 module.exports = router;
