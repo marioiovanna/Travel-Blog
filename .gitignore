@@ -1,3 +1,6 @@
+# Images Folder
+/images
+
 #Mac
 .DS_Store
 .idea/
