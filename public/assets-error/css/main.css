@@ -2856,6 +2856,7 @@
 			border-bottom: 0;
 			color: inherit;
 			font-weight: 900;
+			font-size: 2em;
 			letter-spacing: 0.35em;
 			margin: 0 0 2.5em 0;
 			text-decoration: none;
@@ -2874,8 +2875,8 @@
 
 				#header .logo .symbol img {
 					display: block;
-					width: 2em;
-					height: 2em;
+					width: 4em;
+					height: 4em;
 				}
 
 		#header nav {
@@ -3311,16 +3312,6 @@
 						margin-top: 3em;
 					}
 
-			/* Map interactive CSS*/
-			.map-back{
-				background-image: url("../../images/images-main/board.jpg");
-			}
-			#chartdiv {
-				width: 100%;
-				height: 300px !important
-			}
-
-
 		}
 
 		@media screen and (max-width: 480px) {
@@ -3340,15 +3331,6 @@
 					#footer > .inner .copyright li:first-child {
 						margin-top: 0;
 					}
-
-			/* Map interactive CSS*/
-			.map-back{
-				background-image: url("../../images/images-main/board.jpg");
-			}
-			#chartdiv {
-				width: 100%;
-				height: 200px !important
-			}
 
 		}
 
@@ -3373,7 +3355,6 @@
 .map-back{
 	background-image: url("../../images/images-main/board.jpg");
 }
-
 #chartdiv
 	a {
 		display: none !important;
